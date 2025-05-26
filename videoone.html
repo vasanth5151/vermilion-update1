@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="event planners in chennai">
+  <title>Event Planners in Chennai | Coimbatore | Wedding decorators</title>
+  <link rel="icon" href="./assets/images/favicon.webp">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="./assets/css/viewbox.css">
+  <link href="./assets/css/fontawesome-all.css" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script> 
+$(function(){
+  $("#header").load("header.html");
+  $("#footer").load("footer.html"); 	
+});
+</script> 
+<style>.mainmenu1 a{color: #707070 !important;
+    background-color: rgba(0, 0, 0, 0.02) !important;}</style>
+</head>
+<body class="homepage">
+<div id="header"></div>
+
+<section class="video-sep-one">
+<div class="container">
+	<!-- The First video -->
+	  <div class="modal fade" style="display:block; opacity: 1; background-color: #00000075;">
+    <div class="modal-dialog modal-dialog-centered" style="max-width:80%;">
+      <div class="modal-content">                           
+        <div class="modal-body">
+		<a href="./index.html"><button type="button" class="close" data-dismiss="modal">&times;</button></a>
+         <iframe width="100%" height="500" src=" https://www.youtube.com/embed/AHxaj9ieXM8?autoplay=1&mute=1" allowfullscreen>
+		</iframe>
+        </div>              
+      </div>
+    </div>
+  </div>
+  <!--<div class="" id="firstvideo">
+    <div class="">
+      <div class="">                           
+        <div class="modal-body">
+		<a href="./index.html"><button type="button" class="close vidclose" data-dismiss="modal">&times;</button></a>
+         <iframe width="100%" height="545" src=" https://www.youtube.com/embed/3EueKY9gzP0?autoplay=1&mute=1" allowfullscreen>
+		</iframe>
+        </div>              
+      </div>
+    </div>
+  </div>-->
+</div>
+</section>
+
+<div id="footer"></div>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/jquery.viewbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script>
+function mobilebarbtn() {
+  var mobmenu = document.getElementById("mobilemenu-view");
+	mobmenu.style.display = "block"; 	
+}
+function closemenu() {
+  var mobmenu = document.getElementById("mobilemenu-view");
+	mobmenu.style.display = "none"; 	
+}
+
+$(function(){
+			
+	$('.thumbnail').viewbox();
+	$('.thumbnail-2').viewbox({fullscreenButton: true});
+
+	(function(){
+		var vb = $('.popup-link').viewbox();
+		$('.popup-open-button').click(function(){
+			vb.trigger('viewbox.open');
+		});
+		$('.close-button').click(function(){
+			vb.trigger('viewbox.close');
+		});
+	})();
+			
+});
+</script>
+
+</body>
+</html> 

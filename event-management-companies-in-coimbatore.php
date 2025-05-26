@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> 404 </title>
+      <meta http-equiv = "refresh" content = "0; url = https://www.vermiliondecors.com" />
+   </head>
+   <body>
+      <p>Redirecting</p>
+   </body>
+</html>
