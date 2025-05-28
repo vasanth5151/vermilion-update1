@@ -545,7 +545,7 @@
 /* cta section */
 
 .contact-cta {
-  padding: 80px 0;
+  padding: 60px 0;
   color: white;
   position: relative;
   font-family: 'Playfair Display', serif;
@@ -658,12 +658,14 @@
 @media (max-width: 992px) {
   .cta-wrapper {
     flex-direction: column;
+    align-items: center;
+    
   }
   
   .image-container {
-    width: 100%;
+    width: 80%;
     order: -1;
-    margin-bottom: 30px;
+   
   }
   
   .feature-image {
@@ -678,6 +680,7 @@
   .cta-box h3,
   .cta-box p {
     text-align: center;
+    font-size: 1.5rem;
   }
 }
 
@@ -692,6 +695,7 @@
   z-index: 100;
   display: flex;
   gap: 15px;
+  z-index: 1;
 }
 
 .hero-btn {
@@ -1102,5 +1106,9 @@
   
   .decor-content {
     padding: 20px;
+  }
+  .cta-button {
+    padding: 12px 28px;
+    font-size: 0.85rem;
   }
 }
