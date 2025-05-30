@@ -1583,17 +1583,23 @@ Every event’s essence was kept in mind, and what we had were beautiful moments
 		  <div class="cta-wrapper">
 			<!-- Left side - Contact Form -->
 			<div class="form-container">
-			  <div class="cta-box">
-				<h3>Ready to Plan Your Dream Wedding?</h3>
-				<p>Get a free consultation with our wedding experts</p>
-				<form class="cta-form">
-					<input type="name" placeholder="Name" required>
-				  	<input type="tel" placeholder="Phone Number" required>
-					<input type="name" placeholder="Type of event" required>
-				  <button type="submit">Get Free Quote</button>
-				</form>
+				<div class="cta-box">
+				  <h3>Ready to Plan Your Dream Wedding?</h3>
+				  <p>Get a free consultation with our wedding experts</p>
+				  
+				  <!-- Success message placeholder -->
+				  <div id="form-success" style="display: none; color: green; margin-bottom: 10px;">
+					Thank you! Your request has been submitted.
+				  </div>
+			  
+				  <form class="cta-form" id="weddingForm">
+					<input type="text" name="name" placeholder="Name" required>
+					<input type="tel" name="phone" placeholder="Phone Number" required>
+					<input type="text" name="event" placeholder="Type of event" required>
+					<button type="submit">Get Free Quote</button>
+				  </form>
+				</div>
 			  </div>
-			</div>
 			
 			<!-- Right side - Single Large Image -->
 			<div class="image-container">
@@ -3229,6 +3235,31 @@ document.addEventListener('DOMContentLoaded', function() {
             track.appendChild(clone);
         });
     });
+
+
+// script to connect google sheet
+document.getElementById("weddingForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+    const url = "https://script.google.com/macros/s/AKfycbxizwqzkqQy0VC-XOCpUCLqS-vXzYv7uf4haveqtHgjuqX05mT7dvWGNWdV8kbVLLR4_w/exec"; // Replace with your actual Google Apps Script Web App URL
+
+    fetch(url, {
+      method: "POST",
+      mode: "no-cors",
+      body: formData
+    })
+    .then(() => {
+      // Show the success message
+      document.getElementById("form-success").style.display = "block";
+      // Reset form fields
+      document.getElementById("weddingForm").reset();
+    })
+    .catch(err => {
+      console.error("Form submission failed", err);
+    });
+  });
+
 </script>
 
 
