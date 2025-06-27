@@ -65,10 +65,7 @@
 .accordion .card-header:after {    font-family: "Font Awesome 5 Free" !important; 	font-weight: 900;	content: "\f05a";	float:right;	color: #7a7a7a;	font-size:12px;}.accordion .card-header.collapsed:after {    /* symbol for "collapsed" panels */    content: "\f078";	float:right;	color: #7a7a7a;}.card, .card-header{border:0px; background-color: rgb(0 0 0 / 0%);}.card-header{border-bottom: 1px solid rgba(0,0,0,.125) !important;}.accordion	a{color: #7a7a7a;font-family: "Butler";    font-size: 18px;    font-weight: 400;}.pt-30{padding-top:30px;}.pb-50{padding-bottom:50px;}
 #demohome img{height:590px; object-fit:cover;}#demohome .carousel-indicators li{background-color: #ffaabb;}#demohome .fas{color: #ed5371;font-size: 30px;}.heading{text-align:center; padding: 20px 10px;}.heading img{width: 8%; max-width: 11%;}.heading h2{color: #5b5b5b;    font-family: "Butler";    font-size: 30px;    font-weight: 400;}.container-fluid-container-home{padding-left: 80px;padding-right: 80px;}.lftimage img{width:100%; height:500px; border-radius:15px; object-fit: cover;}.rgtheading h2{color: #54595f;    font-family: "Butler";     font-size: 30px;    font-weight: 400;    line-height: 1.2em;}.rgtheading p{color: #0c0c0c;    font-family: "Metropolis", Sans-serif;    font-size: 12px;    font-weight: 400;    line-height: 24px;}.rgtcnt{box-shadow: 0px 2px 23px 4px rgb(0 0 0 / 23%);    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;    margin: 40px 4px 40px -75px; border-radius:10px; background-color:#fff; position:relative;padding: 2em 2em 2em 2em;}.thumbnail img{width:100%; height:75px; object-fit:cover;}.explorebtn{font-family: "Metropolis", Sans-serif; border-radius: 5px;    font-size: 12px;    font-weight: 400;    background-color: #62650a;    padding: 12px;    color: #fff;}.explorebtn:hover{text-decoration:none; color:#fff;}
 .minislider .carousel-indicators li{background-color:#ed5371;}.minislider .carousel-indicators{top:95px;}.minislider .carousel-control{position:absolute; margin-top:0%; color:#000; font-size:43px;}.minislider .left{left:2px;}.minislider .right{right:2px;}a:hover{text-decoration:none;}		.homepage .pb-50{padding-bottom:80px;}.smallclr{color:#ccc;}.video-section{background-color:#fdfdfd;}.video-section .carousel-indicators{position:relative; margin-right: 0%; z-index: 0;    margin-left: 0%;}.video-section .carousel-indicators li{width: 21%; height: 163px;}.w-110{width:100%; height:131px; object-fit: cover;}.videoplaybtn {    position: absolute;    z-index: 9;    color: #fff;    margin: 0 auto;    top: 34%;    text-align: center;    margin-left: 45%;font-size: 93px;}.justsendus{background-color:#262626; padding-top:20px; padding-bottom:50px;}.justsendus h2{color:#fff;}.justsendus .form-controlcus{background-color: #fbfbfb; color: #000 !important;}.elementor-shape-top{color: #fff;    overflow: hidden;    position: absolute;    left: 0;    width: 100%;    line-height: 0;    direction: rtl;	margin-top: 50px;}.elementor-shape-bottom{overflow: hidden;	margin-top: -20px;    position: absolute;    left: 0;    width: 100%;    line-height: 0;    direction: ltr;}.elementor-shape-fill{fill:#fff; transform: rotateY(0deg);}.elementor-shape-fill1{fill:#000; transform: rotateY(0deg); transform-origin: center;}.justsendusmain{background-color:#fdfdfd;}
-.eventplanner{
-    
-
-}.eventplanner p{font-size:12px;}
+.eventplanner p{font-size:12px;}
 .eventplanner .explorebtn{background-color: #54595F;border-radius: 5px;}
 .conhead{padding-top: 164px;}.conhead h1{font-size: 30px;        font-family: 'Playfair Display', serif; 
     outline-style: initial;    outline-width: 0px;    color: rgb(91, 91, 91);	padding-top:30px;}		
@@ -84,8 +81,6 @@
     height: 30px;
     background-color: #000;
 }
-
-
 
 
 /* Gallery Section Styles */
